@@ -1,4 +1,8 @@
-## Functions
+# Credit Card Generator
+
+![version badge](https://img.shields.io/badge/dynamic/json?color=success&label=version&query=version&url=https%3A%2F%2Fraw.githubusercontent.com%2FSimeon979%2Fcard-gen%2Fmaster%2Fpackage.json)
+
+## API
 
 <dl>
 <dt><a href="#generateCard">generateCard(option)</a></dt>
