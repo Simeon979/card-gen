@@ -1,13 +1,11 @@
-# Credit Card Generator
-
-## API
+## Functions
 
 <dl>
 <dt><a href="#generateCard">generateCard(option)</a></dt>
 <dd><p>Generate a valid card either randomly or according to  supplied options </p>
 <p>If startsWith is provided as an option, endsWith, includeSequence, network and issuer are ignored
-If endsWith is provided, includeSequence, network and issuer are ignored
-If includeSequence is provided, network and issuer are ignored
+If includeSequence is provided, endsWith, network and issuer are ignored
+If endsWith is provided, network and issuer are ignored
 network and issuer can both be provided, or be present independently</p>
 </dd>
 <dt><a href="#lookupCard">lookupCard(bin)</a> ⇒ <code>Object</code> | <code>undefined</code></dt>
@@ -27,8 +25,8 @@ network and issuer can both be provided, or be present independently</p>
 Generate a valid card either randomly or according to  supplied options 
 
 If startsWith is provided as an option, endsWith, includeSequence, network and issuer are ignored
-If endsWith is provided, includeSequence, network and issuer are ignored
-If includeSequence is provided, network and issuer are ignored
+If includeSequence is provided, endsWith, network and issuer are ignored
+If endsWith is provided, network and issuer are ignored
 network and issuer can both be provided, or be present independently
 
 **Kind**: global function  
