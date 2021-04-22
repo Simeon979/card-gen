@@ -1,6 +1,6 @@
 {
   "name": "@simeon979/card-gen",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Generate bank card number and some card number utils",
   "main": "index.js",
   "scripts": {
@@ -27,5 +27,8 @@
   "homepage": "https://github.com/Simeon979/card-gen#readme",
   "devDependencies": {
     "jest": "^26.6.3"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
   }
 }
